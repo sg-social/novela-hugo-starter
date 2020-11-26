@@ -5,15 +5,20 @@ admin_path: ''
 webhook_url: https://github.com/sg-social/tango-secure/settings/hooks
 sections:
 - type: directory
+  path: content/products
+  label: Products
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/about
   label: About
   create: documents
   match: "**/*"
-- type: heading
-  label: About
-- type: document
-  path: content/_index.md
-  label: Company
+- type: directory
+  path: content/technology
+  label: Technology
+  create: documents
+  match: "**/*"
 - type: heading
   label: Data
 - type: directory
