@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: https://github.com/sg-social/tango-secure/settings/hooks
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: content/about
   label: About
