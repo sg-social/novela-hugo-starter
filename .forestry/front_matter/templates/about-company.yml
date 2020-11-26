@@ -20,5 +20,4 @@ fields:
   hidden: true
   default: Company
 pages:
-- content/about/company/company_en.json
-- content/about/company/company_fr.json
+- content/about/Company/company_fr.json
