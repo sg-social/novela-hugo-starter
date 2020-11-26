@@ -17,7 +17,7 @@ fields:
   config:
     required: false
   label: Title
-  hidden: false
+  hidden: true
   default: Defalt value
 pages:
 - content/about/company/company_en.json
