@@ -2,11 +2,6 @@
 label: Open Positions
 hide_body: true
 fields:
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
 - name: seo2
   type: field_group
   config: {}
@@ -16,7 +11,7 @@ fields:
     config: {}
     template: seo
     label: SEO
-  label: SEO2
+  label: SEO
 pages:
 - content/about/open-positions/open_positions_en.md
 - content/about/open-positions/open_positions_fr.md
