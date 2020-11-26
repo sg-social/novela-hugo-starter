@@ -1,6 +1,16 @@
 ---
 label: About - Company
 hide_body: true
-fields: []
+fields:
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  label: SEO
 pages:
 - content/about/company/company_en.md
