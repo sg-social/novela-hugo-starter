@@ -7,3 +7,5 @@ fields:
   config: {}
   template: seo
   label: SEO
+pages:
+- content/about/open-positions/open_positions_fr.md
