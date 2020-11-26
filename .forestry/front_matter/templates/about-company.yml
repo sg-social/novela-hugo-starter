@@ -18,6 +18,6 @@ fields:
     required: false
   label: Title
   hidden: true
-  default: Defalt value
+  default: Company
 pages:
 - content/about/company/company_en.json
