@@ -14,12 +14,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Company
-- type: document
-  path: content/_company.md
-  label: Careers
-- type: document
-  path: content/_open_positions.md
-  label: Open Positions
 - type: heading
   label: Data
 - type: directory
