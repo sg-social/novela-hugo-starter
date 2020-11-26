@@ -11,6 +11,7 @@ sections:
   label: About
   create: all
   match: "**/*"
+  new_doc_ext: ".json"
 - type: directory
   path: content/technology
   label: Technology

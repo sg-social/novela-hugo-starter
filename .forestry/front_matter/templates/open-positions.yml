@@ -12,6 +12,3 @@ fields:
     template: seo
     label: SEO
   label: SEO
-pages:
-- content/about/open-positions/open_positions_en.md
-- content/about/open-positions/open_positions_fr.md
