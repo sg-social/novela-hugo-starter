@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: https://github.com/sg-social/tango-secure/settings/hooks
 sections:
+- type: directory
+  path: content/about
+  label: About
+  create: documents
+  match: "**/*"
 - type: heading
   label: About
 - type: document
@@ -12,11 +17,9 @@ sections:
 - type: document
   path: content/_company.md
   label: Careers
-  match: "**/*"
 - type: document
   path: content/_open_positions.md
   label: Open Positions
-  match: "**/*"
 - type: heading
   label: Data
 - type: directory
