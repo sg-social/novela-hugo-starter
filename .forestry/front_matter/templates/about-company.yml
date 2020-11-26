@@ -21,3 +21,4 @@ fields:
   default: Company
 pages:
 - content/about/company/company_en.json
+- content/about/company/company_fr.json
