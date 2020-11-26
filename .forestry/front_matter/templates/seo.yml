@@ -1,4 +1,30 @@
 ---
 label: SEO
 hide_body: true
-fields: []
+fields:
+- name: meta_title
+  type: text
+  config:
+    required: false
+  label: Meta Title
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: Meta Description
+- name: url
+  type: text
+  config:
+    required: false
+  label: Url
+- name: canonical
+  type: text
+  config:
+    required: false
+  label: Canonical
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: Website
