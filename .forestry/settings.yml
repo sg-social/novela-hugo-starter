@@ -7,17 +7,17 @@ sections:
 - type: directory
   path: content/about
   label: About
-  create: documents
+  create: all
   match: "**/*"
 - type: directory
   path: content/technology
   label: Technology
-  create: documents
+  create: all
   match: "**/*"
 - type: directory
   path: content/products
   label: Products
-  create: documents
+  create: all
   match: "**/*"
 - type: heading
   label: Data
