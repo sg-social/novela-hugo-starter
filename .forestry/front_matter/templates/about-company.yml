@@ -2,3 +2,5 @@
 label: About - Company
 hide_body: true
 fields: []
+pages:
+- content/about/company/company_en.md
