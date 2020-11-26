@@ -12,5 +12,12 @@ fields:
     template: seo
     label: SEO
   label: SEO
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  hidden: true
+  default: Defalt value
 pages:
 - content/about/company/company_en.md
