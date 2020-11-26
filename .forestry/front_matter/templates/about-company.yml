@@ -19,3 +19,5 @@ fields:
   label: Title
   hidden: false
   default: Defalt value
+pages:
+- content/about/company/company_en.json
