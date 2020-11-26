@@ -1,6 +1,6 @@
 ---
 label: Open Positions
-hide_body: false
+hide_body: true
 fields:
 - name: seo
   type: include
