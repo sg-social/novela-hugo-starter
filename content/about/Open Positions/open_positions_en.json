@@ -6,5 +6,32 @@
     "url": "",
     "canonical": "",
     "type": ""
+  },
+  "header": {
+    "title": "We Are Secure Group",
+    "subtitle": "Оur mission is to provide customer-tailored mobile solutions to individuals, businesses, and organizations which help them secure and manage the information flow while preserving the privacy of their data.",
+    "highligts": [
+      {
+        "label": "20K",
+        "description": "Users around the world"
+      },
+      {
+        "label": "50+",
+        "description": ""
+      },
+      {
+        "label": "180+",
+        "description": "People"
+      }
+    ]
+  },
+  "10_years_of_innovation": {
+    "title": ""
+  },
+  "our_promise": {
+    "title": ""
+  },
+  "leadership": {
+    "title": ""
   }
 }
