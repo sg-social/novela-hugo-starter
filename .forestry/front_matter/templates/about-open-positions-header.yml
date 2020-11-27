@@ -1,4 +1,36 @@
 ---
 label: About - Open Positions - Header
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtitle
+- name: highligts
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Highligts
