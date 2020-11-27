@@ -18,14 +18,16 @@ fields:
     template: seo
     label: SEO
   label: SEO
-- name: layout
-  type: blocks
-  label: Layout
-  template_types:
-  - about-open-positions-header
-  config:
-    min: 
-    max: 
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: header
+    type: include
+    config: {}
+    template: about-open-positions-header
+    label: Header
+  label: Header
 pages:
 - content/about/Open Positions/open_positions_en.json
 - content/about/Open Positions/open_positions_fr.json
