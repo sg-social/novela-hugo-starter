@@ -34,3 +34,8 @@ fields:
     max: 
     labelField: 
   label: Highligts
+- name: background_image
+  type: include
+  config: {}
+  template: image
+  label: Background Image
