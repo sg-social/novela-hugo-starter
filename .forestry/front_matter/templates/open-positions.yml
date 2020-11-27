@@ -20,3 +20,4 @@ fields:
   label: SEO
 pages:
 - content/about/Open Positions/open_positions_en.json
+- content/about/Open Positions/open_positions_fr.json
