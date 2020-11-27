@@ -18,3 +18,5 @@ fields:
     template: seo
     label: SEO
   label: SEO
+pages:
+- content/about/Open Positions/open_positions_en.json
