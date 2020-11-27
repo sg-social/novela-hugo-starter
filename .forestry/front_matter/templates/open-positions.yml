@@ -28,6 +28,36 @@ fields:
     template: about-open-positions-header
     label: Header
   label: Header
+- name: 10_years_of_innovation
+  type: field_group
+  config: {}
+  fields:
+  - name: 10_years_of_innovation
+    type: include
+    config: {}
+    template: about-open-positions-10-years-of-innovation
+    label: 10 Years of Innovation
+  label: 10 Years of Innovation
+- name: our_promise
+  type: field_group
+  config: {}
+  fields:
+  - name: our_promise
+    type: include
+    config: {}
+    template: about-open-positions-our-promise
+    label: Our Promise
+  label: Our Promise
+- name: leadership
+  type: field_group
+  config: {}
+  fields:
+  - name: leadership
+    type: include
+    config: {}
+    template: about-open-positions-leadership
+    label: Leadership
+  label: Leadership
 pages:
 - content/about/Open Positions/open_positions_en.json
 - content/about/Open Positions/open_positions_fr.json
