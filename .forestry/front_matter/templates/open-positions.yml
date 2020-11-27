@@ -18,6 +18,11 @@ fields:
     template: seo
     label: SEO
   label: SEO
+- name: header
+  type: include
+  config: {}
+  template: about-open-positions-header
+  label: Header
 pages:
 - content/about/Open Positions/open_positions_en.json
 - content/about/Open Positions/open_positions_fr.json
