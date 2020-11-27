@@ -1,4 +1,36 @@
 ---
 label: Image
 hide_body: true
-fields: []
+fields:
+- name: desk_1x
+  type: file
+  config:
+    maxSize: 64
+  label: desk@1x
+- name: alt
+  type: text
+  config:
+    required: false
+  label: alt
+- name: add_desk_2x
+  type: boolean
+  label: Add desk@2x
+- name: desk_2x
+  type: file
+  config:
+    maxSize: 64
+  label: desk@2x
+  showOnly:
+    field: add_desk_2x
+    value: true
+- name: add_mob_1x
+  type: boolean
+  label: add mob@1x
+- name: mob_1x
+  type: file
+  config:
+    maxSize: 64
+  label: mob@1x
+  showOnly:
+    field: add_mob_1x
+    value: true
