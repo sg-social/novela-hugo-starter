@@ -31,4 +31,5 @@ fields:
     labelField: 
   label: Sub items
 pages:
+- configt/menus/footer-menu.json
 - configt/menus/main-menu.json
