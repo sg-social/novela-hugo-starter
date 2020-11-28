@@ -30,5 +30,3 @@ fields:
     max: 
     labelField: 
   label: Sub items
-pages:
-- configt/menus/About.json
