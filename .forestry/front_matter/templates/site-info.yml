@@ -1,4 +1,9 @@
 ---
 label: Site info
 hide_body: true
-fields: []
+fields:
+- name: favicon
+  type: file
+  config:
+    maxSize: 64
+  label: Favicon
