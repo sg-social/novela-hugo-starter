@@ -30,6 +30,12 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: json
+- type: directory
+  path: configt/menus
+  label: Menus
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
