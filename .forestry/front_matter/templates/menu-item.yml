@@ -30,3 +30,5 @@ fields:
     max: 
     labelField: 
   label: Sub items
+pages:
+- configt/menus/main-menu.json
