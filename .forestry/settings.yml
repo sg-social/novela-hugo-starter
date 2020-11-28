@@ -35,13 +35,13 @@ sections:
   label: Menus
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
   path: config/footer
   label: Footer
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
